@@ -96,7 +96,7 @@ function App() {
             <a href="https://api.whatsapp.com/send?phone=+916238258336&text=1₹%20Class">
               <div className=' ml-6 mt-10'>
                 <div className='btn-whatsapp-pulse h-16 w-80 flex items-center justify-start bg-gray-800  relative rounded-e-full rounded-s-full'>
-                  <div className=' w-20 h-20 bg-gray-800  rounded-full flex items-center -left-9  absolute justify-center   '>
+                  <div className=' w-20 h-20 bg-gray-800  rounded-full flex items-center -left-7  absolute justify-center   '>
                     <img src={whatsapp} alt="" className='  h-14 w-14' />
                   </div>
                   <h4 className=' ml-2 text-lg text-[#1AD121] font-bold '>Click here to share a screenshot on WhatsApp</h4>
