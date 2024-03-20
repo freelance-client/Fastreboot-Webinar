@@ -23,9 +23,9 @@ function App() {
         <div className="poster relative ">
           <div className=' w-full h-1/4 absolute flex flex-col justify-center items-center gap-0 sm:4'>
             <div>
-            <img src={logo} alt="" className=' w-auto h-24  md:h-40 lg:h-64' />
+              <img src={logo} alt="" className=' w-auto h-24  md:h-40 lg:h-64' />
             </div>
-          <h1 className='text-center italic text-3xl sm:text-6xl font-bold text-white sm:px-12'>Fast Reboot Lifestyle Live Session Invitation</h1>
+            <h1 className='text-center italic text-3xl sm:text-6xl font-bold text-white sm:px-12'>Fast Reboot Lifestyle Live Session Invitation</h1>
           </div>
           <img src={poster} alt="" srcset="" className=' w-full  ' />
         </div>
@@ -94,12 +94,15 @@ function App() {
             <p>📢 Don't miss out on this opportunity to gain valuable insights and practical tips!</p>
             <h1 className=' text-base sm:text-2xl font-bold'>With best regards<br /><span>Team Fast Reboot Mentoring Platform ⭐</span></h1>
             <a href="https://api.whatsapp.com/send?phone=+916238258336&text=1₹%20Class">
-              <div className=' ml-10'>
-                <div className=' h-16 w-80 flex items-center justify-start bg-[#D9D9D9] relative rounded-e-full'>
-                  <div className='w-20 h-20 bg-[#D9D9D9] rounded-full flex items-center -left-9  absolute justify-center   '>
+              <div className=' ml-6 mt-10'>
+                <div className='btn-whatsapp-pulse h-16 w-80 flex items-center justify-start bg-gray-800  relative rounded-e-full rounded-s-full'>
+                  <div className=' w-20 h-20 bg-gray-800  rounded-full flex items-center -left-9  absolute justify-center   '>
                     <img src={whatsapp} alt="" className='  h-14 w-14' />
                   </div>
-                  <h4 className=' ml-20 text-xl text-black font-bold '>+91 623 825 8336</h4>
+                  <h4 className=' ml-2 text-lg text-[#1AD121] font-bold '>Click here to share a screenshot on WhatsApp</h4>
+                </div>
+                <div class="wrap">
+
                 </div>
               </div>
             </a>
